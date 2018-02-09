@@ -1,0 +1,18 @@
+<?php
+/**
+ * @var \Magecrafts\WebApp\Block\Sw $block
+ */
+$serviceWorker = $block->getViewFileUrl('Magecrafts_WebApp/js/service-worker.js');
+?>
+<script type="text/x-magento-init">
+        {
+            "*": {
+                "Magecrafts_WebApp/js/registration": {
+                    "swUrl":"<?php echo $serviceWorker?>",
+                    "loadScripts" : "",
+                    "postUrl":"<?php echo $block->getUrl('pwa/notification/subscribe')?>",
+                    "applicationPubKey":"<?php echo $block->getPublicKey();?>"
+                }
+            }
+        }
+</script>

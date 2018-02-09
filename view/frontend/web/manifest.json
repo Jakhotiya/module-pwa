@@ -1,0 +1,26 @@
+{
+  "name": "Magecrafts",
+  "short_name": "Hbwsl",
+  "start_url": "https://mage.dev",
+  "description": "Making ecommerce fast",
+  "display": "standalone",
+  "background_color": "#3E4EB8",
+  "theme_color": "#2F3BA2",
+  "icons": [{
+    "src": "https://mage.dev/static/version1508135807/frontend/Avactis/digicenter/en_US/Humc_Theme/images/favicon/favicon.png",
+    "sizes": "128x128",
+    "type": "image/png"
+  }, {
+    "src": "https://mage.dev/static/version1508135807/frontend/Avactis/digicenter/en_US/Humc_Theme/images/favicon/apple-touch-icon.png",
+    "sizes": "152x152",
+    "type": "image/png"
+  }, {
+    "src": "https://mage.dev/static/version1508135807/frontend/Avactis/digicenter/en_US/Humc_Theme/images/favicon/mstile-144x144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "https://mage.dev/static/version1508135807/frontend/Avactis/digicenter/en_US/Humc_Theme/images/favicon/android-chrome-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Magecrafts_WebApp::top" resource="Magecrafts_WebApp::top" title="Push notifications"
+             action="pwa/notification/index" module="Magecrafts_WebApp" sortOrder="10"
+             parent="Magento_Backend::system_other_settings" dependsOnModule="Magento_Backend"/>
+    </menu>
+</config>
